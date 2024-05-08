@@ -11,3 +11,6 @@ ErrorDocument 501 /var/www/error/error501.html
 ErrorDocument 502 /var/www/error/error502.html
 ErrorDocument 503 /var/www/error/error503.html
 ```
+## Exemple
+
+![exemple](https://cdn.eggplants.fr/img/github/a03b56e/exemple_a03b56e.png)
