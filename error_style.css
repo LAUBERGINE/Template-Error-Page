@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&display=swap');
+/*LATER CHANGE IMPORT GOOGLE FONTS API TO MY CDN SERVER cdn.eggplants.fr*/
+
+html,
+body {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 4vmax;
+    animation: NeonBug 10s steps(50, end) infinite, blink-caret 1s infinite;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2vmax;
+    animation: NeonBug 6s steps(50, end) infinite, blink-caret 1s infinite;
+}
+
+@keyframes NeonBug {
+    0% {
+        opacity: 100%;
+    }
+
+    25% {
+        opacity: 30%;
+    }
+
+    26% {
+        opacity: 80%;
+    }
+
+    50% {
+        opacity: 45%;
+    }
+
+    56% {
+        opacity: 90%;
+    }
+
+    75% {
+        opacity: 50%;
+    }
+
+    76% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 50%;
+    }
+}
